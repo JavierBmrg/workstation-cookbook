@@ -10,6 +10,12 @@ package 'Install git' do
   package_name 'git'
 end
 
+package 'Install EPEL' do
+ package_name 'epel-release'
+end
+
+package 'figlet'
+
 file '/etc/motd' do
   content 'Modified by chef recipe
 '
