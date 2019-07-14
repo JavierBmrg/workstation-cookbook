@@ -16,6 +16,7 @@ chef generate cookbook <name/of/the/new/cookbook/>
 
 - Execute cookbook's recipe
 ```bash
+chef-client -z --runlist "cookbook-name::recipe-name"
 chef-client -z -r "[cookbook-name::recipe-name]"
 ```
 
