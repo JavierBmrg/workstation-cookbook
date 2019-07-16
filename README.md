@@ -24,3 +24,8 @@ chef-client -z -r "[cookbook-name::recipe-name]"
 ```bash
 chef-client -z -r "recipe[cookbook-name::recipe-name],recipe[cookbook-name::recipe-name]"
 ```
+- Generate templates
+
+```bash
+chef generate template <cookbook-name> <name-of-template>
+```
